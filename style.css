@@ -1,0 +1,11 @@
+body {
+    height: auto;
+    background-color: #383838;
+}
+
+.Grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(16, 2em);
+    gap: 0.5em;
+}
