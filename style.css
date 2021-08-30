@@ -1,34 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body {
-    background-color: #383838;
+    background-color: gray;
 }
-
-.Grid {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(16, 2em);
-    gap: 0.5em;
-}
-
-#grid_size {
-    position: absolute;
-    bottom: 13%;
-    left: 30%;
-    font-family: Roboto;
-    background-color: rgba(82, 82, 82, 0.533);
-    color: white;
-    width: 7em;
-    height: 3em;
-    font-size: 1.2em;
-    border-radius: 1em;
-    border-style: solid;
-}
-
 
 h1 {
-    color: white;
-    font-size: 3.5em;
-    font-family: Roboto;
+    font-family: Fredoka One;
     text-align: center;
+}
+
+.container {
+    display: grid;
 }
